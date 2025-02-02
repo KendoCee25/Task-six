@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+}
+.main ul {
+    display: flex;
+    margin-left: 100px
+} 
+
+.main nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.main nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.main aside{
+    margin-top: 30px;
+}
+.main aside img{
+    padding-left: 25px;
+}
+#sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#sec1 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    width: 100%;
+}
+
+#sec1 .main3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgb(183, 186, 187);
+}
+
+#sec1 .main3 .name {
+    margin-right: 50px;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    margin-right: 100px;
+    color: #555555;
+    font-weight: bold;
+}
+.main3 input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: #555555;
+    margin-right: 300px;
+    border: 1px solid  #555555;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.main2 textarea {
+    height: 200px;
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #c8cacc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(204, 207, 209, 0.5);
+}
+#sec1 button {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#class-7 {
+    margin-bottom: 100px;
+}
+#class-8 {
+    margin-bottom: 100px;
+}
